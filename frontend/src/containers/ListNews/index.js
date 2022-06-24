@@ -62,7 +62,7 @@ function NewsList(props) {
                                             title={item.title}
                                             description={item.description}
                                             companyName={item?.owner.companyName}
-                                            image={`${process.env.SERVER_API}{item.imageUrl.slice(6)}`}
+                                            image={`https://simple-tourism-2022-heroku-22.herokuapp.com/${item.imageUrl.slice(6)}`}
                                             key={index}
                                         />
                                     </Grid>
