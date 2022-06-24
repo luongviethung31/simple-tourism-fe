@@ -62,7 +62,7 @@ function NewsList(props) {
                                             title={item.title}
                                             description={item.description}
                                             companyName={item?.owner.companyName}
-                                            image={`http://localhost:4000${item.imageUrl.slice(6)}`}
+                                            image={`${process.env.SERVER_API}{item.imageUrl.slice(6)}`}
                                             key={index}
                                         />
                                     </Grid>
