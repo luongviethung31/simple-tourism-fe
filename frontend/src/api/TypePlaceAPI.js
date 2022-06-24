@@ -2,7 +2,7 @@ import axiosClient from "./axiosClient"
 import {getHeaderWithToken} from "./getHeaderWithToken"
 
 const getAllTypePlace = () => {
-    let url = '/typeplace'
+    let url = 'https://simple-tourism-2022-heroku-22.herokuapp.com/typeplace'
     return axiosClient.get(url)
 }
 const getCountries = () => {
