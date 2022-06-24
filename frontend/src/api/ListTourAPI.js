@@ -17,7 +17,7 @@ const deleteTour = (id) => {
 }
 
 const getOutstandingTour = () => {
-  const url = 'https://simple-tourism-2022-heroku-22.herokuapp.com/tour/tour-noi-bat'
+  const url = '/tour/tour-noi-bat'
   return axiosClient.get(url)
 }
 
