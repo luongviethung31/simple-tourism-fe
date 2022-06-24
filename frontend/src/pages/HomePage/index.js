@@ -20,8 +20,8 @@ function HomePage() {
             loading ? <SpinnerLoading/> :
             <div>
                 <CarouselInstroduce/>
-                <FilterTour/>
-                <OutstandingTour/>
+                {/* <FilterTour/> */}
+                {/* <OutstandingTour/> */}
                 <HotPlaces/>
                 <AdvantageCard/>
             </div>
