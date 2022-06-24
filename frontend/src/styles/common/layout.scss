@@ -1,0 +1,64 @@
+//scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.layout-app{
+    display: flex;
+    .component{
+        width: calc(100vw - 120px);
+        max-width: calc(100vw - 120px);
+        overflow: hidden;
+        overflow: hidden;
+        max-height: 100vh;
+    }
+    .list-manager, .manage-statistic-wrapper {
+        overflow-y: auto;
+        max-width: 100%;
+        max-height: calc(100vh - 80px);
+    }
+}
+.layout-user-app{
+    .component{
+        // margin-top: 95px;
+        .tour-list {
+            // padding-top: 50px;
+        }
+        .tour-domestic{
+            // background: url("https://images.pexels.com/photos/1172840/pexels-photo-1172840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            // background-size: cover;
+        }
+        .tour-international{
+            // background: url("https://images.pexels.com/photos/5957428/pexels-photo-5957428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            // background-size: cover;
+        }
+        .tour-result{
+            // background: url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg");
+            // background-size: 100%;
+            // background-position: 50%;
+            .title-not-found{
+                padding: 20px 50px;
+                text-align: left;
+            }
+        }
+    }   
+}
+.active-user{
+    color: #faffaf !important;
+    background-color: #1565c059 !important;
+}
