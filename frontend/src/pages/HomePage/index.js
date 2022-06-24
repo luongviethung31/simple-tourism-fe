@@ -9,7 +9,7 @@ import AdvantageCard from 'components/AdvantageCard';
 import { setActiveUrl } from 'redux/reducers/activeUrl/action';
 
 function HomePage() {
-    const {loading} = useSelector((store) => store.listTour)
+    // const {loading} = useSelector((store) => store.listTour)
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(setActiveUrl('home'))
@@ -17,9 +17,9 @@ function HomePage() {
     return (
         <div className='home-page'>
         {
-            loading ? <SpinnerLoading/> :
+            // loading ? <SpinnerLoading/> :
             <div>
-                <CarouselInstroduce/>
+                {/* <CarouselInstroduce/> */}
                 {/* <FilterTour/> */}
                 {/* <OutstandingTour/> */}
                 <HotPlaces/>
