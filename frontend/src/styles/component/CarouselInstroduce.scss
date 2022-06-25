@@ -1,5 +1,6 @@
 .slide-box {
     .slick-track {
+        overflow: hidden;
         height: 100%;
         .slick-slide {
             & > div {
